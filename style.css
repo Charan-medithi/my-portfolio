@@ -2,25 +2,59 @@ body {
   font-family: Arial, sans-serif;
   background-color: #0f172a;
   color: white;
-  text-align: center;
-  padding: 50px;
-} 
+  margin: 0;
+  padding: 0;
+}
 
+/* Container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Headings */
 h1 {
-  font-size: 40px;
+  font-size: 42px;
   color: #38bdf8;
 }
 
 h2 {
-  margin-top: 30px;
   color: #facc15;
+  margin-top: 30px;
 }
 
+/* Card style */
+.card {
+  background: #1e293b;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* List */
 ul {
   list-style: none;
   padding: 0;
 }
 
 li {
-  margin: 10px;
+  margin: 8px 0;
+}
+
+/* Button */
+a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #38bdf8;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+a:hover {
+  background: #0ea5e9;
 }
